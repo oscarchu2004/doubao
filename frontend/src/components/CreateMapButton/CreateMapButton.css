@@ -1,0 +1,58 @@
+/* CreateMapButton.css */
+.create-map-button {
+    height: 100%;
+    min-height: 200px;
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background-color: #f9f9f9;
+}
+
+.create-map-button:hover {
+    border-color: #ca5b16;
+    background-color: #fff0e6;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+}
+
+.plus-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #fff0e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+    transition: all 0.2s ease;
+}
+
+.create-map-button:hover .plus-icon {
+    background-color: #ca5b16;
+}
+
+.plus-icon i {
+    font-size: 30px;
+    color: #ca5b16;
+    transition: all 0.2s ease;
+}
+
+.create-map-button:hover .plus-icon i {
+    color: white;
+}
+
+.create-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #555;
+    transition: all 0.2s ease;
+}
+
+.create-map-button:hover .create-text {
+    color: #ca5b16;
+}

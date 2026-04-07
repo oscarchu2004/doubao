@@ -1,0 +1,41 @@
+/* Signup Form */
+.signup-form {
+    /* Apply the same padding, border-radius, and layout as the login form */
+    padding: 40px 30px;
+}
+
+/* Placeholder Styling */
+::placeholder {
+    font-size: 16px;
+}
+
+
+.input-field {
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.input-field:focus {
+    border-color: #ca5b16;  /* Highlight with brand color */
+}
+
+.sign-up-btn {
+    background-color: #ca5b16;
+    border-color: #ca5b16;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.sign-up-btn:hover {
+    background-color: #b65618;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.login-link {
+    text-decoration: underline;
+    color: #ca5b16;
+    cursor: pointer;
+}
+
+.login-link:hover {
+    color: #b62a18;
+}

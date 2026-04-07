@@ -1,0 +1,104 @@
+// Sample 1
+{
+    "quizId": "681bb435a49f289ffc7d248d",
+    "questionText": "When using a fire extinguisher, what does the 'A' in the P.A.S.S technique stand for?",
+    "options": [
+        {
+            "text": "Aim at the base of fire",
+            "imageUrl": ""
+        },
+        {
+            "text": "Apply pressure gradually",
+            "imageUrl": ""
+        }
+    ],
+    "correctAnswerIndex": 0
+}
+// Sample 2
+{
+    "quizId": "681bb435a49f289ffc7d248d",
+    "questionText": "What should you do with cardboard boxes before recycling them?",
+    "options": [
+        {
+            "text": "Wash them thoroughly with soap",
+            "imageUrl": ""
+        },
+        {
+            "text": "Flatten them to save space",
+            "imageUrl": ""
+        },
+        {
+            "text": "Keep them intact to maintain structural integrity",
+            "imageUrl": ""
+        }
+    ],
+    "correctAnswerIndex": 1
+}
+// Sample 3
+{
+    "quizId": "681bb435a49f289ffc7d248d",
+    "questionText": "Which of the following is NOT proper procedure during a fire emergency?",
+    "options": [
+        {
+            "text": "Use stairs instead of elevators",
+            "imageUrl": ""
+        },
+        {
+            "text": "Use the P.A.S.S technique for fire extinguishers",
+            "imageUrl": ""
+        },
+        {
+            "text": "Collect your personal belongings before exiting",
+            "imageUrl": ""
+        },
+        {
+            "text": "Pull the fire alarm to alert others",
+            "imageUrl": ""
+        }
+    ],
+    "correctAnswerIndex": 2
+}
+// Sample 4
+{
+    "quizId": "681bb435a49f289ffc7d248d",
+    "questionText": "Which material can be recycled indefinitely without losing quality?",
+    "options": [
+        {
+            "text": "Pizza boxes with food residue",
+            "imageUrl": ""
+        },
+        {
+            "text": "Metal cans",
+            "imageUrl": ""
+        },
+        {
+            "text": "Plastic type 7",
+            "imageUrl": ""
+        },
+        {
+            "text": "Contaminated paper products",
+            "imageUrl": ""
+        }
+    ],
+    "correctAnswerIndex": 1
+}
+// Sample with image option
+{
+    "quizId": "681bb435a49f289ffc7d248d",
+    "questionText": "Which fire extinguisher type is shown in the image?",
+    "options": [
+        {
+            "text": "",
+            "imageUrl": "https://example.com/fire-extinguisher-a.jpg"
+        },
+        {
+            "text": "",
+            "imageUrl": "https://example.com/fire-extinguisher-b.jpg"
+        },
+        {
+            "text": "",
+            "imageUrl": "https://example.com/fire-extinguisher-c.jpg"
+        }
+    ],
+    "correctAnswerIndex": 0
+}

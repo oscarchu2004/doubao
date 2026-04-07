@@ -1,0 +1,109 @@
+/* HotspotStyles.css - Custom Hotspot Styles with #ca5b16 theme */
+
+/* Task Hotspot - Tickbox Icon */
+.task-hotspot {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: 3px solid #ca5b16;
+    border-radius: 8px;
+    cursor: pointer;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.task-hotspot:hover {
+    background-color: #ca5b16;
+    box-shadow: 0 4px 12px rgba(202, 91, 22, 0.4);
+}
+
+.task-hotspot::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 28px;
+    height: 28px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ca5b16' stroke-width='3'%3E%3Cpath d='M9 12l2 2 4-4'/%3E%3Cpath d='M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+    pointer-events: none;
+}
+
+.task-hotspot:hover::before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='3'%3E%3Cpath d='M9 12l2 2 4-4'/%3E%3Cpath d='M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z'/%3E%3C/svg%3E");
+}
+
+/* Info Hotspot - Magnifying Glass Icon */
+.info-hotspot {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: 3px solid #ca5b16;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.info-hotspot:hover {
+    background-color: #ca5b16;
+    box-shadow: 0 4px 12px rgba(202, 91, 22, 0.4);
+}
+
+.info-hotspot::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 28px;
+    height: 28px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ca5b16' stroke-width='2.5'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cpath d='M21 21l-4.35-4.35'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+    pointer-events: none;
+}
+
+.info-hotspot:hover::before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='2.5'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cpath d='M21 21l-4.35-4.35'/%3E%3C/svg%3E");
+}
+
+/* Navigation Hotspot - Direction Pointer (Always Points Up) */
+.navigation-hotspot {
+    width: 45px;
+    height: 45px;
+    background-color: #fff;
+    border: 3px solid #ca5b16;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navigation-hotspot:hover {
+    background-color: #ca5b16;
+    box-shadow: 0 4px 12px rgba(202, 91, 22, 0.4);
+}
+
+.navigation-hotspot::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ca5b16' stroke-width='2.5'%3E%3Cpolygon points='12,2 19,21 12,17 5,21'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+    pointer-events: none;
+}
+
+.navigation-hotspot:hover::before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='2.5'%3E%3Cpolygon points='12,2 19,21 12,17 5,21'/%3E%3C/svg%3E");
+}

@@ -1,0 +1,146 @@
+.creative-header {
+    background: linear-gradient(180deg, rgba(244, 225, 213, 0.8) 50%, rgba(255, 255, 255, 0.6) 100%);
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    padding: 3rem 0;
+    z-index: 1000;
+}
+
+/* Decorative elements - circles like in the image */
+.creative-header::before,
+.creative-header::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(202, 91, 22, 0.1);
+    /* Soil theme color */
+    z-index: 1;
+}
+
+.creative-header::before {
+    width: 80px;
+    height: 80px;
+    top: 20%;
+    left: 15%;
+}
+
+.creative-header::after {
+    width: 60px;
+    height: 60px;
+    bottom: 25%;
+    right: 10%;
+}
+
+/* Main title styling */
+.creative-title {
+    color: #ca5b16;
+    /* Soil theme color */
+    font-weight: 600;
+    font-size: 2.5rem;
+    position: relative;
+    z-index: 2;
+}
+
+/* Search container styling */
+.search-container {
+    max-width: 600px;
+    position: relative;
+    z-index: 2;
+}
+
+/* Search input styling */
+.search-input {
+    height: 50px;
+    font-size: 1rem;
+    padding-left: 0;
+}
+
+.search-input:focus {
+    box-shadow: none;
+}
+
+/* Input group styling */
+.input-group {
+    background-color: white;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Search icon container */
+.search-icon {
+    background-color: transparent !important;
+    margin-left: 5px;
+}
+
+/* Search button styling */
+.search-button {
+    background-color: transparent;
+    border: none;
+    color: #ca5b16;
+    /* Soil theme color */
+    margin-right: 5px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.search-button:hover {
+    background-color: rgba(202, 91, 22, 0.1);
+    color: #ca4f16;
+}
+
+/* Making the header responsive */
+@media (max-width: 768px) {
+    .creative-title {
+        font-size: 1.8rem;
+    }
+
+    .search-container {
+        max-width: 90%;
+    }
+}
+
+/* Add the bubble effect in the top right with Soil theme color */
+.creative-header .bubble-top-right {
+    position: absolute;
+    top: 10%;
+    right: 15%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(202, 91, 22, 0.15);
+    z-index: 1;
+}
+
+/* Ensure header spans full width */
+.creative-header .container {
+    max-width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/* Prevent content from showing underneath the sticky header when scrolling */
+body {
+    padding-top: 0;
+    margin: 0;
+}
+
+/* For browsers that don't support sticky, fallback to fixed */
+@supports not (position: sticky) {
+    .creative-header {
+        position: fixed;
+    }
+
+    body {
+        padding-top: 160px;
+        /* Adjust based on your header height */
+    }
+}

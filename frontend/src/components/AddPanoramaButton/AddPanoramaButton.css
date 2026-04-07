@@ -1,0 +1,54 @@
+.add-panorama-btn {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 6px;
+    font-weight: 500;
+    background: #ca5b16 !important;
+    border-color: #ca5b16 !important;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.add-panorama-btn:hover {
+    background: #b65618 !important;
+    border-color: #b65618 !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3) !important;
+    transform: translateY(0px);
+}
+
+.add-panorama-btn:focus {
+    background: #b65618 !important;
+    border-color: #b65618 !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
+.add-panorama-btn:active {
+    background: #b65618 !important;
+    border-color: #b65618 !important;
+}
+
+.panorama-btn-badge {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    color: #ca5b16;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.panorama-btn-icon {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.panorama-btn-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+}

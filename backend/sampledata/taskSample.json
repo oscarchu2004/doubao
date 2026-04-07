@@ -1,0 +1,180 @@
+{
+  "missionId": "681cec7deedc05260457a167",
+  "title": "Locate Fire Extinguisher",
+  "description": "Find the fire extinguisher in the main lobby. Fire extinguishers should be used for small, contained fires only.",
+  "details": [
+    {
+      "order": 1,
+      "text": "Fire extinguishers are crucial safety equipment designed to put out small fires before they spread. They are typically mounted on walls in visible, easily accessible locations.",
+      "imagePath": "/assets/images/tasks/fire_extinguisher_location.jpg"
+    },
+    {
+      "order": 2,
+      "text": "When using a fire extinguisher, remember the P.A.S.S technique: Pull the pin, Aim at the base of fire, Squeeze the handle, and Sweep from side to side.",
+      "imagePath": "/assets/images/tasks/pass_technique.jpg"
+    },
+    {
+      "order": 3,
+      "text": "Fire extinguishers are color-coded based on the type of fires they can handle: Class A (ordinary combustibles), Class B (flammable liquids), Class C (electrical equipment), and Class D (flammable metals).",
+      "videoUrl": "https://www.youtube.com/embed/BLjKJXESmYI"
+    }
+  ],
+  "targetHotspotId": "681cf0bd1f4ac13515949eee",
+  "order": 1
+}
+
+{
+  "missionId": "681cec7deedc05260457a167",
+  "title": "Find Emergency Exit",
+  "description": "Locate the nearest emergency exit sign. Always know your evacuation routes in case of a fire emergency.",
+  "details": [
+    {
+      "order": 1,
+      "text": "Emergency exit signs are illuminated and typically found above doorways leading to safe exit routes. They are designed to be visible even in smoke-filled or dark conditions.",
+      "imagePath": "/assets/images/tasks/exit_sign_example.jpg"
+    },
+    {
+      "order": 2,
+      "text": "In an emergency, always use stairs instead of elevators. Elevators may stop functioning or become dangerous during a fire.",
+      "imagePath": "/assets/images/tasks/emergency_stairs.jpg"
+    },
+    {
+      "order": 3,
+      "text": "When evacuating, stay low to avoid smoke inhalation, feel doors for heat before opening, and proceed calmly to the nearest exit.",
+      "videoUrl": "https://www.youtube.com/embed/ZgJc72t5qTU"
+    }
+  ],
+  "targetHotspotId": "681cf18f1f4ac13515949efc",
+  "order": 2
+}
+
+{
+  "missionId": "681cec7deedc05260457a167",
+  "title": "Locate Fire Alarm",
+  "description": "Find the fire alarm pull station. In case of fire, pull the alarm to alert others in the building.",
+  "details": [
+    {
+      "order": 1,
+      "text": "Fire alarm pull stations are typically small, red boxes mounted on walls near exits. They allow anyone to manually activate the building's fire alarm system.",
+      "imagePath": "/assets/images/tasks/fire_alarm_pull_station.jpg"
+    },
+    {
+      "order": 2,
+      "text": "When you discover a fire, first ensure your own safety, then activate the nearest fire alarm pull station by pulling down the lever. This alerts everyone in the building to evacuate.",
+      "imagePath": "/assets/images/tasks/pulling_fire_alarm.jpg"
+    },
+    {
+      "order": 3,
+      "text": "After activating the fire alarm, exit the building immediately. Do not attempt to gather belongings or use elevators.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+    {
+      "order": 4,
+      "text": "False alarms can cause panic and waste emergency resources. Only activate the fire alarm in a genuine emergency situation.",
+      "imagePath": "/assets/images/tasks/false_alarm_consequences.jpg"
+    }
+  ],
+  "targetHotspotId": "681cf8161f4ac13515949f26",
+  "order": 3
+}
+
+
+{
+  "missionId": "681cf8bf1f4ac13515949f59",
+  "title": "Cardboard Recycling",
+  "description": "Find the cardboard recycling bin. Cardboard boxes should be flattened before disposal to save space.",
+  "details": [
+    {
+      "order": 1,
+      "text": "Cardboard is one of the most recyclable materials. When properly recycled, it can be transformed into new cardboard products in as little as two weeks.",
+      "imagePath": "/assets/images/tasks/cardboard_recycling_process.jpg"
+    },
+    {
+      "order": 2,
+      "text": "Before recycling cardboard, remove any tape, labels, or other non-paper materials. Flatten boxes to save space in the recycling bin.",
+      "imagePath": "/assets/images/tasks/flattening_cardboard.jpg"
+    },
+    {
+      "order": 3,
+      "text": "Cardboard contaminated with food (like pizza boxes with grease) cannot be recycled and should be composted or disposed of in general waste.",
+      "videoUrl": "https://www.youtube.com/embed/jFcBDY5faxg"
+    },
+    {
+      "order": 4,
+      "text": "For every ton of cardboard recycled, we save about 17 trees, 7,000 gallons of water, and 4,000 kilowatts of electricity.",
+      "imagePath": "/assets/images/tasks/cardboard_impact.jpg"
+    }
+  ],
+  "targetHotspotId": "681cf9861f4ac13515949f63",
+  "order": 1
+}
+
+{
+  "missionId": "681cf8bf1f4ac13515949f59",
+  "title": "Recyclable Materials",
+  "description": "Locate the recycling bin for plastic, glass, and metal items. These materials can be recycled multiple times to conserve resources.",
+  "details": [
+    {
+      "order": 1,
+      "text": "Common recyclable materials include plastic bottles (types 1 and 2), glass containers, aluminum cans, steel cans, and clean paper products.",
+      "imagePath": "/assets/images/tasks/common_recyclables.jpg"
+    },
+    {
+      "order": 2,
+      "text": "Always rinse containers before recycling to remove food residue. Contaminated recycling can cause entire batches to be sent to landfill.",
+      "imagePath": "/assets/images/tasks/rinsing_containers.jpg"
+    },
+    {
+      "order": 3,
+      "text": "Look for recycling numbers on plastic items. Not all plastics are recyclable in all areas - check local guidelines.",
+      "videoUrl": "https://www.youtube.com/embed/O1EGr7Hqap4"
+    },
+    {
+      "order": 4,
+      "text": "Metal cans are infinitely recyclable without loss of quality. Recycling one aluminum can saves enough energy to power a TV for three hours.",
+      "imagePath": "/assets/images/tasks/metal_recycling_facts.jpg"
+    },
+    {
+      "order": 5,
+      "text": "Glass bottles can be recycled endlessly. Recycling one glass bottle saves enough energy to power a computer for 30 minutes.",
+      "imagePath": "/assets/images/tasks/glass_recycling_impact.jpg"
+    }
+  ],
+  "targetHotspotId": "681cf9c51f4ac13515949f69",
+  "order": 2
+}
+
+{
+  "missionId": "681cf8bf1f4ac13515949f59",
+  "title": "General Waste",
+  "description": "Find the general waste bin for non-recyclable items. Always try to minimize waste that ends up in landfills.",
+  "details": [
+    {
+      "order": 1,
+      "text": "General waste typically includes non-recyclable plastics (types 3-7 in many regions), contaminated paper products, disposable diapers, and certain composite materials.",
+      "imagePath": "/assets/images/tasks/general_waste_examples.jpg"
+    },
+    {
+      "order": 2,
+      "text": "Remember the waste hierarchy: Reduce, Reuse, Recycle. The best approach is to reduce consumption of items that will become waste.",
+      "imagePath": "/assets/images/tasks/waste_hierarchy.jpg"
+    },
+    {
+      "order": 3,
+      "text": "Consider alternatives to common waste items: use reusable shopping bags, refillable water bottles, and products with minimal packaging.",
+      "videoUrl": "https://www.youtube.com/embed/OasbYWF4_S8"
+    },
+    {
+      "order": 4,
+      "text": "Hazardous waste such as batteries, electronics, paints, and certain chemicals should never go in general waste. They require special disposal methods.",
+      "imagePath": "/assets/images/tasks/hazardous_waste.jpg"
+    },
+    {
+      "order": 5,
+      "text": "The average person generates about 4.5 pounds of waste per day. By being mindful of consumption and disposal habits, we can significantly reduce this number.",
+      "imagePath": "/assets/images/tasks/waste_reduction_tips.jpg"
+    }
+  ],
+  "targetHotspotId": "681cfa5c1f4ac13515949f6f",
+  "order": 3
+}

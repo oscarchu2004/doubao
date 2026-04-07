@@ -1,0 +1,58 @@
+.options-container .option-card {
+    transition: all 0.2s ease;
+    min-height: 60px;
+}
+
+.options-container .selected-option {
+    box-shadow: 0 0 0 2px #0d6efd;
+}
+
+.options-container .option-card:hover:not(.selected-option) {
+    background-color: #f8f9fa !important;
+    border-color: #c6c6c6 !important;
+}
+
+.options-container .col-12 {
+    margin-bottom: 8px;
+}
+
+.options-container .col-6 {
+    display: flex;
+}
+
+.options-container .col-6 .option-card {
+    width: 100%;
+    height: 100%;
+}
+
+.selected-option {
+    animation: pulse 0.3s ease-in-out;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.02);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.options-container textarea {
+    min-height: 60px;
+    resize: vertical;
+}
+
+.options-container .form-check-input:focus {
+    box-shadow: none;
+}
+
+.options-container .form-check-input:checked {
+    background-color: #198754;
+    border-color: #198754;
+}

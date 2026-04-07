@@ -1,0 +1,22 @@
+.score-display {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+}
+
+.result-details {
+    background-color: #f0f7ff;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+/* make the quiz cards more clickable and interactive */
+.quiz-list .card {
+    transition: all 0.2s ease;
+}
+
+.quiz-list .card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

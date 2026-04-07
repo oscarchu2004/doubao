@@ -1,0 +1,21 @@
+/* MiniQuiz.css */
+.responsive-modal {
+    max-width: 90vw;
+    /* max 90% of viewport width */
+    width: 100%;
+    /* use full width available */
+}
+
+@media (min-width: 768px) {
+    .responsive-modal {
+        max-width: 700px;
+        /* medium screen */
+    }
+}
+
+@media (min-width: 992px) {
+    .responsive-modal {
+        max-width: 800px;
+        /* large screen */
+    }
+}

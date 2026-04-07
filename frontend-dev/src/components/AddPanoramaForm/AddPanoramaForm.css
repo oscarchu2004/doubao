@@ -1,0 +1,111 @@
+/* Add Panorama Form popup styles */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    margin: 0;
+    padding: 0;
+}
+
+.box-area {
+    max-width: 900px;
+    width: 100%;
+}
+
+.panorama-form {
+    padding: 20px 30px;
+}
+
+/* Placeholder Styling */
+::placeholder {
+    font-size: 16px;
+}
+
+.input-field {
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.input-field:focus {
+    border-color: #ca5b16;
+}
+
+.create-panorama-btn {
+    background-color: #ca5b16;
+    border-color: #ca5b16;
+    color: white;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.create-panorama-btn:hover {
+    background-color: #b65618;
+    border-color: #ca5b16;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.cancel-btn {
+    background-color: #f8f9fa;
+    border-color: #e9ecef;
+    color: #6c757d;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.cancel-btn:hover {
+    background-color: #e9ecef;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.adjust-coordinates-btn {
+    background-color: #ca5b16;
+    border-color: #ca5b16;
+    color: white;
+    border-radius: 8px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.adjust-coordinates-btn:hover {
+    background-color: #b65618;
+    border-color: #ca5b16;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.coordinates-or-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #6c757d;
+    font-weight: 500;
+}
+
+.picker-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1050;
+}
+
+.picker-content {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.image-preview-container {
+    max-height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+}

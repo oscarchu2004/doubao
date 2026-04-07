@@ -1,0 +1,32 @@
+/* App.css */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css");
+/* Reset styles to ensure full-width display */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* App container takes full width */
+.App {
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+/* Content container */
+.content {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}

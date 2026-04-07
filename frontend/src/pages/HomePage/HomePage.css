@@ -1,0 +1,48 @@
+/* Full Width Homepage */
+.homepage {
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: #f9f9f9; */
+}
+
+/* Content Container */
+.content-container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 2rem;
+}
+
+/* Section Title Styling */
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+}
+
+/* Map Form Styling */
+.map-form {
+    border-radius: 10px;  /* Adjusted border radius */
+    padding: 20px;
+    /* background-color: #f9f9f9; */
+}
+
+.map-form input,
+.map-form textarea {
+    border-radius: 8px;
+    border: 1px solid #ccc;  /* Subtle border */
+    padding: 10px;
+}
+/* Button Styling */
+.create-map-btn {
+    background-color: #ca5b16;
+    border-color: #ca5b16;
+    border-radius: 8px;
+    padding: 10px 20px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.create-map-btn:hover {
+    background-color: #b65618;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
